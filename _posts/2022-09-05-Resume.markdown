@@ -17,8 +17,8 @@ Mobile : 8848504060
 
 - <b>Experience:</b>  
 
-    Synopsys India Pvt. Ltd. Bengaluru ,Karnataka
-    R and D Engineer I Feb 2021 - Present
+    Synopsys India Pvt. Ltd. Bengaluru ,Karnataka.   
+    R and D Engineer I | Feb 2021 - Present
  
 
       - Web Application using Django: Implemented a scalable web application from scratch to dynamically keep
@@ -36,7 +36,7 @@ Mobile : 8848504060
 
 
    Robert Bosch Engineering and Business Solutions Bengaluru, Karnataka.    
-   Software Test Engineer Sep 2018 - Feb 2021  
+   Software Test Engineer | Sep 2018 - Feb 2021  
 
       - GNSS Test Automation: Implemented a complete automated setup to test the GNSS module of an embedded
       Telematics system using Python, in turn saving 60 percent Tester time.  
