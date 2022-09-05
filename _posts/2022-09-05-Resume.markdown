@@ -6,7 +6,7 @@ date:   2022-09-05 19:32:17 +0530
 
 Jishnu C K 
 Email : jishnuck26@gmail.com
-https://www.linkedin.com/in/jishnuck/ 
+LinkedIn : [linkedin]
 Mobile : 8848504060
 
 Education
@@ -67,3 +67,6 @@ Achievements
 Certifications
   PG Level Certi cate for the Advanced Programme in Deep Learning Foundations and Applications
 (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A"
+
+
+[linkedin]:https://www.linkedin.com/in/jishnuck/ 
