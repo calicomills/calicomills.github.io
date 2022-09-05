@@ -1,2 +1,0 @@
-# jishnuck.github.io
-Work
