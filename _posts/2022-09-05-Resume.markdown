@@ -4,7 +4,7 @@ title:  "Resume"
 date:   2022-09-05 19:32:17 +0530
 ---
 
-Jishnu C K 
+Jishnu C K   
 Email : jishnuck26@gmail.com   
 LinkedIn : [jishnuck][linkedin]   
 Mobile : 8848504060  
@@ -66,7 +66,7 @@ Mobile : 8848504060
      - Jenkins,Perforce,JIRA,Git.  
 
   - Web Technologies:
-     - Django  
+     - Django    
 
 - <b>Projects</b>:  
         Self Supervised Learning for Visual Representation: Used Vision Transformer based architecture for classification
