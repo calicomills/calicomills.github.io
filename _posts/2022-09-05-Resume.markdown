@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Resume"
+date:   2022-09-05 19:32:17 +0530
+---
+
 Jishnu C K 
 Email : jishnuck26@gmail.com
 https://www.linkedin.com/in/jishnuck/ 
