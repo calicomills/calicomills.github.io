@@ -9,13 +9,13 @@ Email : jishnuck26@gmail.com
 LinkedIn : [linkedin]   
 Mobile : 8848504060  
 
-Education:
+<b>Education</b>:
  
 National Institute of Technology(NIT), Karnataka Surathkal, Karnataka.  
 B.Tech in Electrical and Electronics Engineering.  
 CGPA: 7.14.  
 
-Experience:
+Experience:  
  
 Synopsys India Pvt. Ltd. Bengaluru ,Karnataka
 R and D Engineer I Feb 2021 - Present
@@ -30,9 +30,9 @@ completion, the logs of the individual runs are parsed and data collected is sto
 
 Auto-Triangulation System: Built a distributed Triangulation system to  nd out software changes which caused
 performance degradation between two successive Software versions and also connected it to a Web interface to
-create flags for the identifed culprit changes.Used the multiprocessing module in Python to achieve parallelism.  
+create flags for the identifed culprit changes.Used the multiprocessing module in Python to achieve parallelism.    
  
-Robert Bosch Engineering and Business Solutions Bengaluru, Karnataka.  
+Robert Bosch Engineering and Business Solutions Bengaluru, Karnataka.    
 Software Test Engineer Sep 2018 - Feb 2021  
 
 GNSS Test Automation: Implemented a complete automated setup to test the GNSS module of an embedded
