@@ -74,9 +74,9 @@ Mobile : 8848504060
         MocoV3, DINO and Masked Auto-encoder(MAE).  
 
 - <b>Achievements</b>:  
-        Recognition: Received Quarterly Award at India Team level at Synopsys.  
-        Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch
-         1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.  
+        - Recognition: Received Quarterly Award at India Team level at Synopsys.  
+        - Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch.  
+        - 1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.  
 
 - <b>Certifications</b>:  
         PG Level Certificate for the Advanced Programme in Deep Learning Foundations and Applications
