@@ -28,8 +28,8 @@ github_username:  calicomills
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
