@@ -5,15 +5,15 @@ date:   2022-09-05 19:32:17 +0530
 ---
 
 Jishnu C K 
-Email : jishnuck26@gmail.com.  
-LinkedIn : [linkedin].  
-Mobile : 8848504060.  
+Email : jishnuck26@gmail.com   
+LinkedIn : [linkedin]   
+Mobile : 8848504060  
 
 Education:
  
-National Institute of Technology(NIT), Karnataka Surathkal, Karnataka.
-B.Tech in Electrical and Electronics Engineering.
-CGPA: 7.14.
+National Institute of Technology(NIT), Karnataka Surathkal, Karnataka.  
+B.Tech in Electrical and Electronics Engineering.  
+CGPA: 7.14.  
 
 Experience:
  
@@ -22,62 +22,62 @@ R and D Engineer I Feb 2021 - Present
 
 Web Application using Django: Implemented a scalable web application from scratch to dynamically keep
 track of performance metrics of successive software versions using the Django Web Framework and Python. Used
-HTML,CSS,Javascript to create an easy to use interface and made use of a PostgreSQL Database.
+HTML,CSS,Javascript to create an easy to use interface and made use of a PostgreSQL Database.  
 
 Automated Job submission and Log Parser: Built a distributed Job Submission system to trigger daily and
 weekly regression runs. It employs a multi-threaded approach to track the runs to completion. On successful
-completion, the logs of the individual runs are parsed and data collected is stored to a PostgreSQL DB.
+completion, the logs of the individual runs are parsed and data collected is stored to a PostgreSQL DB.  
 
 Auto-Triangulation System: Built a distributed Triangulation system to  nd out software changes which caused
 performance degradation between two successive Software versions and also connected it to a Web interface to
-create flags for the identifed culprit changes.Used the multiprocessing module in Python to achieve parallelism.
+create flags for the identifed culprit changes.Used the multiprocessing module in Python to achieve parallelism.  
  
-Robert Bosch Engineering and Business Solutions Bengaluru ,Karnataka.
-Software Test Engineer Sep 2018 - Feb 2021
+Robert Bosch Engineering and Business Solutions Bengaluru, Karnataka.  
+Software Test Engineer Sep 2018 - Feb 2021  
 
 GNSS Test Automation: Implemented a complete automated setup to test the GNSS module of an embedded
-Telematics system using Python, in turn saving 60 percent Tester time.
+Telematics system using Python, in turn saving 60 percent Tester time.  
 
 Jenkins Automation Framework: Implemented a Jenkins workflow so that entire SW life cycle from
-integration to Testing of software is automated, saving 100 percent testing time.
+integration to Testing of software is automated, saving 100 percent testing time.  
 
 GUI application using Tkinter and Matplotlib: Implemented a GUI application to plot the real time CPU
-usage and Power consumption of an embedded system.
+usage and Power consumption of an embedded system.  
 
 
 Tech Stack:
 
 Languages:
 
-  Advanced:Python.
-  Intermediate:SQL,C,C++,CSS,HTML,Shell scripting.
-  Beginner: JavaScript,Assembly.
+  Advanced:Python.  
+  Intermediate:SQL,C,C++,CSS,HTML,Shell scripting.  
+  Beginner: JavaScript,Assembly.  
   
 Python libraries:
-  PyTorch, Tensorflow, Pandas,scikit-learn,Selenium.
+  PyTorch, Tensorflow, Pandas,scikit-learn,Selenium.  
   
 Databases:
-  PostgreSQL.
+  PostgreSQL   
   
 Tools:
-  Jenkins,Perforce,JIRA,Git.
+  Jenkins,Perforce,JIRA,Git.  
   
 Web Technologies:
-  Django.
+  Django  
 
 Projects:
     Self Supervised Learning for Visual Representation: Used Vision Transformer based architecture for classi cation
     task on CIFAR10, imbalanced CIFAR10 and Flowers data sets. Compared the performance on three di erent models i.e
-    MocoV3, DINO and Masked Auto-encoder(MAE).
+    MocoV3, DINO and Masked Auto-encoder(MAE).  
 
 Achievements:
-    Recognition: Received Quarterly Award at India Team level at Synopsys.
+    Recognition: Received Quarterly Award at India Team level at Synopsys.  
     Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch
-     1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.
+     1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.  
   
 Certifications:
     PG Level Certificate for the Advanced Programme in Deep Learning Foundations and Applications
-    (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A".
+    (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A".  
 
 
 [linkedin]:https://www.linkedin.com/in/jishnuck/ 
