@@ -68,19 +68,19 @@ Mobile : 8848504060
   - Web Technologies:
      - Django  
 
-- <b>Projects</b>:
-      Self Supervised Learning for Visual Representation: Used Vision Transformer based architecture for classi cation
-      task on CIFAR10, imbalanced CIFAR10 and Flowers data sets. Compared the performance on three different models i.e
-      MocoV3, DINO and Masked Auto-encoder(MAE).  
+- <b>Projects</b>:  
+        Self Supervised Learning for Visual Representation: Used Vision Transformer based architecture for classification
+        task on CIFAR10, imbalanced CIFAR10 and Flowers data sets. Compared the performance on three different models i.e
+        MocoV3, DINO and Masked Auto-encoder(MAE).  
 
-- <b>Achievements</b>:
-    Recognition: Received Quarterly Award at India Team level at Synopsys.  
-    Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch
-     1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.  
-  
-- <b>Certifications</b>:
-    PG Level Certificate for the Advanced Programme in Deep Learning Foundations and Applications
-    (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A".  
+- <b>Achievements</b>:  
+        Recognition: Received Quarterly Award at India Team level at Synopsys.  
+        Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch
+         1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.  
+
+- <b>Certifications</b>:  
+        PG Level Certificate for the Advanced Programme in Deep Learning Foundations and Applications
+        (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A".  
 
 
 [linkedin]:https://www.linkedin.com/in/jishnuck/ 
