@@ -8,9 +8,8 @@ description: Home for blogs and project ideas, mostly related to Software Develo
 minima:
   date_format: "%b %-d, %Y"
 
-  # generate social links in footer
-  social_links:
-    twitter: jekyllrb
+# generate social links in footer
+social_links:
     github:  calicomills
     # devto: jekyll
     # dribbble: jekyll
