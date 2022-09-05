@@ -1,9 +1,13 @@
-Jishnu C K Email : jishnuck26@gmail.com
-https://www.linkedin.com/in/jishnuck/ Mobile : 8848504060
+Jishnu C K 
+Email : jishnuck26@gmail.com
+https://www.linkedin.com/in/jishnuck/ 
+Mobile : 8848504060
+
 Education
  
 National Institute of Technology(NIT), Karnataka Surathkal, Karnataka
-B.Tech in Electrical and Electronics Engineering; CGPA: 7.14 April 2014 { May. 2018
+B.Tech in Electrical and Electronics Engineering; CGPA: 7.14 
+
 Experience
  
 Synopsys India Pvt. Ltd. Bengaluru ,Karnataka
@@ -28,6 +32,7 @@ ow so that entire SW life cycle from
 integration to Testing of software is automated, saving 100 percent testing time.
   GUI application using Tkinter and Matplotlib: Implemented a GUI application to plot the real time CPU
 usage and Power consumption of an embedded system.
+
 Tech Stack
   Languages:
 Advanced:Python
@@ -42,14 +47,17 @@ PostgreSQL
 Jenkins,Perforce,JIRA,Git
   Web Technologies:
 Django
+
 Projects
   Self Supervised Learning for Visual Representation: Used Vision Transformer based architecture for classi cation
 task on CIFAR10, imbalanced CIFAR10 and Flowers data sets. Compared the performance on three di erent models i.e
 MocoV3, DINO and Masked Auto-encoder(MAE).
+
 Achievements
   Recognition: Received Quarterly Award at India Team level at Synopsys
   Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch
   1st position: National Quiz competition conducted by SAIL,India and Readers's Digest
+  
 Certifications
   PG Level Certi cate for the Advanced Programme in Deep Learning Foundations and Applications
 (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A"
