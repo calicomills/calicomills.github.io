@@ -6,7 +6,7 @@ Here I explain how to render a drop down menu (shown below) which consist of a l
 list to the front-end.
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/24970675/192156889-8e52e00d-c73b-47a9-995d-b4be9e4b109f.png> </img>
+   <img src=https://user-images.githubusercontent.com/24970675/192156889-8e52e00d-c73b-47a9-995d-b4be9e4b109f.png> </img>
 </p>
 
 Firstly, we create the model for the form field in models.py which would be used to model the form object in forms.py , 
@@ -61,13 +61,14 @@ Now in forms.py we override the LabelForm class, so that we are able to customiz
                                   
   The html code used to render the form is shown below, the form object is passed to the Django template using the django.shortcuts.render() in views.py.
 
-                   <form action="" method="post">
-                        <ul>
-                            <li>
-                                {\% csrf_token \%}
-                                {{ form.label.label }}
-                                {{ form.label }}
-                                {{ form.label_ref.label }}
-                                {{ form.label_ref }}
-                           </li>
-                    </form>
+  
+        <form action="" method="post">
+              <ul>
+                  <li>
+                      {{ form.label.label }}
+                      {{ form.label }}
+                      {{ form.label_ref.label }}
+                      {{ form.label_ref }}
+                 </li>
+          </form>
+
