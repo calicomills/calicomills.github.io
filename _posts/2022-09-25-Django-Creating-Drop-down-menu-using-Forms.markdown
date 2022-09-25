@@ -64,7 +64,7 @@ Now in forms.py we override the LabelForm class, so that we are able to customiz
                    <form action="" method="post">
                         <ul>
                             <li>
-                                {% csrf_token %}
+                                {\% csrf_token \%}
                                 {{ form.label.label }}
                                 {{ form.label }}
                                 {{ form.label_ref.label }}
