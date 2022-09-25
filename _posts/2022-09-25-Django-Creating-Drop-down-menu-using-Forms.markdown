@@ -5,7 +5,9 @@ This helps reining in the post processing to be done and reduces the chance of e
 Here I explain how to render a drop down menu (shown below) which consist of a list of indexes queried from a database or a predefined 
 list to the front-end.
 
-     ![image](https://user-images.githubusercontent.com/24970675/192156889-8e52e00d-c73b-47a9-995d-b4be9e4b109f.png)
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/24970675/192156889-8e52e00d-c73b-47a9-995d-b4be9e4b109f.png> </img>
+</p>
 
 Firstly, we create the model for the form field in models.py which would be used to model the form object in forms.py , 
 here you can also specify various restrictions on the form fields.
