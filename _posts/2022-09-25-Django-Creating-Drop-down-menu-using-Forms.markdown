@@ -61,13 +61,13 @@ Now in forms.py we override the LabelForm class, so that we are able to customiz
                                   
   The html code used to render the form is shown below, the form object is passed to the Django template using the django.shortcuts.render() in views.py.
 
-       <form action="" method="post">
-            <ul>
-                <li>
-                    {% csrf_token %}
-                    {{ form.label.label }}
-                    {{ form.label }}
-                    {{ form.label_ref.label }}
-                    {{ form.label_ref }}
-               </li>
-        </form>
+                   <form action="" method="post">
+                        <ul>
+                            <li>
+                                {% csrf_token %}
+                                {{ form.label.label }}
+                                {{ form.label }}
+                                {{ form.label_ref.label }}
+                                {{ form.label_ref }}
+                           </li>
+                    </form>
