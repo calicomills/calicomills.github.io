@@ -1,5 +1,4 @@
-
-Liquid::Template.register_tag('raw', Jekyll::RawTag)Forms are an integral part of Django, and it facilitates the framework to accept inputs from the user in a safe and secure manner. 
+Forms are an integral part of Django, and it facilitates the framework to accept inputs from the user in a safe and secure manner. 
 It allows one to restrict the type and size of data entered, thus acting as an initial filter layer before the data reaches the back-end. 
 This helps reining in the post processing to be done and reduces the chance of errors creeping in.
 
