@@ -73,6 +73,8 @@ Now in forms.py we override the LabelForm class, so that we are able to customiz
           </form>
 {% endraw%}
 
-[linkedin]:https://www.linkedin.com/in/jishnuck/ 
-[gmail]:jishnuck26@gmail.com
+     
+Email : jishnuck26@gmail.com   
+LinkedIn : [jishnuck][linkedin]      
+[linkedin]:https://www.linkedin.com/in/jishnuck/
      
