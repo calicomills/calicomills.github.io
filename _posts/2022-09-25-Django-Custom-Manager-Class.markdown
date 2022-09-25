@@ -1,21 +1,9 @@
 
----
-layout: post
-title:  "Django Models: Overiding the default queryset by using your Custom Manager class"
-date:   2022-09-25 19:32:17 +0530
----
-
-
-
-- <b>Django Models</b>:  
+- <b>Django Models: Overiding the default queryset by using your Custom Manager class</b>:  
 
  When you have data that should only be viewed by certain users, you need to have a filtering mechanism that selects only those particular rows in your database table that can be channeled to the front-end.
 
 Here we enhance the Django models.Manager class to further our querying capabilities of the database table. The generic “filter” method is fairly limited when it comes to implementing more complex logic, in this case to display data to a user only if he has the necessary permissions to view it.
-
-
-
-- <b>Code:</b>  
 
 
           from django.db import models
