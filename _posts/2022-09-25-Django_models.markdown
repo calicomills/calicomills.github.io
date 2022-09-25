@@ -1,87 +1,59 @@
 
 ---
 layout: post
-title:  "Django Models"
-date:   2022-09-05 19:32:17 +0530
+title:  "Django Models: Overiding the default queryset by using your Custom Manager class"
+date:   2022-09-25 19:32:17 +0530
 ---
 
-Jishnu C K   
-Email : jishnuck26@gmail.com   
-LinkedIn : [jishnuck][linkedin]   
-Mobile : 8848504060  
 
-- <b>Education</b>:  
 
-  National Institute of Technology(NIT) Karnataka, Surathkal.  
-  B.Tech in Electrical and Electronics Engineering.  
-  CGPA: 7.14.  
+- <b>Django Models</b>:  
 
-- <b>Experience:</b>  
+ When you have data that should only be viewed by certain users, you need to have a filtering mechanism that selects only those particular rows in your database table that can be channeled to the front-end.
 
-    Synopsys India Pvt. Ltd. Bengaluru ,Karnataka.   
-    R and D Engineer I | Feb 2021 - Present
- 
-
-      - Web Application using Django: Implemented a scalable web application from scratch to dynamically keep
-      track of performance metrics of successive software versions using the Django Web Framework and Python. Used
-      HTML,CSS,Javascript to create an easy to use interface and made use of a PostgreSQL Database.  
-
-      - Automated Job submission and Log Parser: Built a distributed Job Submission system to trigger daily and
-      weekly regression runs. It employs a multi-threaded approach to track the runs to completion. On successful
-      completion, the logs of the individual runs are parsed and data collected is stored to a PostgreSQL DB.  
-
-      - Auto-Triangulation System: Built a distributed Triangulation system to  nd out software changes which caused
-      performance degradation between two successive Software versions and also connected it to a Web interface to
-      create flags for the identifed culprit changes.Used the multiprocessing module in Python to achieve parallelism.  
+Here we enhance the Django models.Manager class to further our querying capabilities of the database table. The generic “filter” method is fairly limited when it comes to implementing more complex logic, in this case to display data to a user only if he has the necessary permissions to view it.
 
 
 
-   Robert Bosch Engineering and Business Solutions Bengaluru, Karnataka.    
-   Software Test Engineer | Sep 2018 - Feb 2021  
-
-      - GNSS Test Automation: Implemented a complete automated setup to test the GNSS module of an embedded
-      Telematics system using Python, in turn saving 60 percent Tester time.  
-
-      - Jenkins Automation Framework: Implemented a Jenkins workflow so that entire SW life cycle from
-      integration to Testing of software is automated, saving 100 percent testing time.  
-
-      - GUI application using Tkinter and Matplotlib: Implemented a GUI application to plot the real time CPU
-      usage and Power consumption of an embedded system.  
+- <b>Code:</b>  
 
 
+          from django.db import models
 
-- <b>Tech Stack</b>:
+          from user import User
 
-  - Languages:
-    - Advanced:Python.  
-    - Intermediate:SQL,C,C++,CSS,HTML,Shell scripting.  
-    - Beginner: JavaScript,Assembly.  
+          class DesignPermissionManager(models.Manager):
+                def permissions_match(self, d_permissions, u_permissions):
+                    d_permission_list = d_permissions.split(',')
+                    for permission in d_permission_list:
+                        if permission in u_permissions:
+                           continue
+                        else:
+                           return False
+                    return True
 
-  - Python libraries:
-     - PyTorch, Tensorflow, Pandas,scikit-learn,Selenium.  
+                def get_viewable_data(self, user):
+                          viewable_refids = []
+                          for data in self.all():
+                              if self.permissions_match(data.permissions,User.getPermissions(user)):
+                                 viewable_refids.append(data.id)
+                          return self.filter(ref_id__in=viewable_refids)
+        
 
-  - Databases:
-     - PostgreSQL   
+The method get_viewable_data takes the user, filters the table, and limit it to rows that the specific user has access to.
 
-  - Tools:
-     - Jenkins,Perforce,JIRA,Git.  
+          class Main_View(View):
+                def get(self, request, name):
+                    user = str(request.user)
+                    data = main_table.objects.get_viewable_data(user) \
+                                             .order_by('-name') \
+                                             .values()
 
-  - Web Technologies:
-     - Django    
 
-- <b>Projects</b>:  
-        Self Supervised Learning for Visual Representation: Used Vision Transformer based architecture for classification
-        task on CIFAR10, imbalanced CIFAR10 and Flowers data sets. Compared the performance on three different models i.e
-        MocoV3, DINO and Masked Auto-encoder(MAE).  
 
-- <b>Achievements</b>:  
-        - Recognition: Received Quarterly Award at India Team level at Synopsys.  
-        - Recognition: Got Multiple Awards at Group level for Test Automation and Issue reproduction in Robert Bosch.  
-        - 1st position: National Quiz competition conducted by SAIL,India and Readers's Digest.  
-
-- <b>Certifications</b>:  
-        PG Level Certificate for the Advanced Programme in Deep Learning Foundations and Applications
-        (IISC, Bangalore): An year long program covering Deep Learning Concepts and Applications. Received Grade "A".  
+In views.py which powers the front-end in Django, we can easily get the user info from the request object and pass it to our filtering method , and thus restrict the user to the data he has permission to.
 
 
 [linkedin]:https://www.linkedin.com/in/jishnuck/ 
+[Mail]:jishnuck26@gmail.com
+
