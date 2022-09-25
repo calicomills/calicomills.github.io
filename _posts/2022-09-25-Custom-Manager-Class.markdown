@@ -1,5 +1,5 @@
 
-- <b>Django Models: Overiding the default queryset by using your Custom Manager class</b>:  
+- <b>Django Models: Overiding the default queryset by using your Custom Manager class</b>
 
  When you have data that should only be viewed by certain users, you need to have a filtering mechanism that selects only those particular rows in your database table that can be channeled to the front-end.
 
