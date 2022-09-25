@@ -1,13 +1,13 @@
-Forms are an integral part of Django, and it facilitates the framework to accept inputs from the user in a safe and secure manner. 
+
+Liquid::Template.register_tag('raw', Jekyll::RawTag)Forms are an integral part of Django, and it facilitates the framework to accept inputs from the user in a safe and secure manner. 
 It allows one to restrict the type and size of data entered, thus acting as an initial filter layer before the data reaches the back-end. 
 This helps reining in the post processing to be done and reduces the chance of errors creeping in.
 
 Here I explain how to render a drop down menu (shown below) which consist of a list of indexes queried from a database or a predefined 
 list to the front-end.
 
-<p align="center">
-   <img src=https://user-images.githubusercontent.com/24970675/192156889-8e52e00d-c73b-47a9-995d-b4be9e4b109f.png> </img>
-</p>
+https://user-images.githubusercontent.com/24970675/192156889-8e52e00d-c73b-47a9-995d-b4be9e4b109f.png
+
 
 Firstly, we create the model for the form field in models.py which would be used to model the form object in forms.py , 
 here you can also specify various restrictions on the form fields.
@@ -61,7 +61,7 @@ Now in forms.py we override the LabelForm class, so that we are able to customiz
                                   
   The html code used to render the form is shown below, the form object is passed to the Django template using the django.shortcuts.render() in views.py.
 
-  
+  {% raw %}
         <form action="" method="post">
               <ul>
                   <li>
@@ -71,4 +71,4 @@ Now in forms.py we override the LabelForm class, so that we are able to customiz
                       {{ form.label_ref }}
                  </li>
           </form>
-
+{% endraw%}
