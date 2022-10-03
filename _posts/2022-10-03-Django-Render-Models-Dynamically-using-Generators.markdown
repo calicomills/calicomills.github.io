@@ -1,5 +1,3 @@
-Django : Rendering Custom models dynamically using generators.
-
 Imagine a platform that would let you build analytics dashboards or a website like shopify.com, how do they build the database tables, ORMs and the necessary backend functionality required to power your specific website. For a start in Django, if we give the user the ability to pick the fields he wants in his dashboard, to implement that feature completely we need also make those entries in models.py.
 
 The following is a start/attempt to render models.py taking the fields as input from the user.(Also handles the Meta class attributes.)
